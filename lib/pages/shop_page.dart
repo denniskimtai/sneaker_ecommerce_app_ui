@@ -58,8 +58,10 @@ class _ShopPageState extends State<ShopPage> {
             ),
 
             Expanded(
-                child: ListView.builder(
-                    itemBuilder: (context, index) => ShoeTile()))
+              child: ListView.builder(
+                itemBuilder: (context, index) => ShoeTile(),
+              ),
+            )
           ],
         ),
       ),
